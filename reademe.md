@@ -56,3 +56,6 @@ table wrap with a div with class="table-responsive", will bring a scroll bar for
 also could pair with screen size: "table-responsive-lg"
 
 --- 22:45 --- Form Basics
+
+
+--- 28:10 --- Input Groups

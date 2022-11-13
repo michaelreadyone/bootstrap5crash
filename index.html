@@ -1,177 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible"
-        content="IE=edge" />
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-        crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-          crossorigin="anonymous"></script>
-  <link rel="stylesheet"
-        href="styles.css">
-</head>
-
-<body>
-  <div class="container">
-    Wikipedia (/ˌwɪkɪˈpiːdiə/ (listen) wik-ih-PEE-dee-ə or /ˌwɪki-/ (listen)
-    wik-ee-) is a multilingual free online encyclopedia written and maintained
-    by a community of volunteers through open collaboration and a wiki-based
-    editing system. Its editors are known as Wikipedians. Wikipedia is the
-    largest and most-read reference work in history.[3] It is consistently one
-    of the 10 most popular websites ranked by Similarweb and formerly Alexa;
-    as of 2022, Wikipedia was ranked the 7th most popular site.[3][4] It is
-    hosted by the Wikimedia Foundation, an American non-profit organization
-    funded mainly through donations. ok
-  </div>
-  <div class="container">
-    <div class="row row-cols-2 gy-lg-2">
-      <div class="col">
-        <div class="row">
-          <div class="col">
-            <div class="box"></div>
-          </div>
-          <div class="col">
-            <div class="box"></div>
-          </div>
-        </div>
+  <body>
+    <div class="container">
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+        <button>Submit</button>
+      </form>
+      <br />
+      <form>
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" class="form-control" />
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" class="form-control" disabled/>
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" class="form-control" value="email@email.com" readonly/>
+        <button>Submit</button>
+      </form>
+      <form>
+        <label for="email" class="form-label">Email</label>
+        <input type="range" id="email" class="form-range" />
+        <label for="email" class="form-label">Email</label>
+        <input type="color" id="email" class="form-control-color" />
+      </form>
+      <form>
+        <label for="email" class="form-label">Email</label>
+        <select>
+          <option>1</option>
+          <option>2</option>
+        </select>
+        <select class="form-select">
+          <option>1</option>
+          <option>2</option>
+        </select>
+      </form>
+      <form>
+        <div>
+        <label for="email" class="form-label">Email</label>
+        <input type="checkbox" />
       </div>
-      <div class="col">
-        <div class="box"></div>
+      <div>
+        <input type="checkbox" class="form-check-input"/>
+        <label for="email" class="form-check-label">Email</label>
+        </select>
       </div>
-      <div class="col">
-        <div class="box"></div>
-      </div>
-      <div class="col">
-        <div class="box"></div>
-      </div>
-      <div class="col">
-        <div class="box"></div>
-      </div>
+      </form>
     </div>
-  </div>
-  <div class="container">
-    <table class="table table-light">
-      <thead>
-        <tr>
-          <th>First</th>
-          <th>Last</th>
-          <th>Age</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="table-warning">
-          <td>Kyle</td>
-          <td>Cook</td>
-          <td>27</td>
-        </tr>
-        <tr class="table-success">
-          <td class="table-dark">Sally</td>
-          <td>Thorn</td>
-          <td>13</td>
-        </tr>
-        <tr>
-          <td>Tom</td>
-          <td>Bea</td>
-          <td>21</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="table-responsive">
-      <table class="table table-hover table-sm ">
-        <thead>
-          <tr>
-            <th>First</th>
-            <th>Last</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-            <th>Age</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="table-active">
-            <td>Kyle</td>
-            <td>Cook</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-            <td>27</td>
-          </tr>
-          <tr>
-            <td>Sally</td>
-            <td>Thorn</td>
-            <td>13</td>
-          </tr>
-          <tr>
-            <td>Tom</td>
-            <td>Bea</td>
-            <td>21</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-  </div>
-</body>
-
+  </body>
 </html>
