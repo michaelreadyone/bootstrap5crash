@@ -37,3 +37,22 @@ structure should be :
 
 --- 17:35 --- Tables
 
+class "table" will bring a good looking format
+8 bootstrap color theme:
+- primary
+- secondary
+- success
+- danger
+- warning
+- info
+- light
+- dark
+color theme could be used in <table>, <tr> even <td>
+"table-striped", "table-hover",
+"table-active" in <tr> act as hoverred for a row
+"table-boardered", "table-boarderless"
+"table-sm"
+table wrap with a div with class="table-responsive", will bring a scroll bar for super wide table
+also could pair with screen size: "table-responsive-lg"
+
+--- 22:45 --- Form Basics
