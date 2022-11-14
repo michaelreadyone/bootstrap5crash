@@ -59,3 +59,10 @@ also could pair with screen size: "table-responsive-lg"
 
 
 --- 28:10 --- Input Groups
+
+--- 30:50 --- Floating labels
+
+label must come after input
+
+--- 32:30 --- Form validation
+

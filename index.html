@@ -22,48 +22,20 @@
   <body>
     <div class="container">
       <form>
-        <label for="email">Email</label>
-        <input type="email" id="email" />
+        <label for="text" class="form-label">Text</label>
+        <div class="input-group">
+          <div class="input-group-text">$</div>
+          <input type="number" id="text2" class="form-control" />
+        </div>
         <button>Submit</button>
       </form>
-      <br />
+      <br>
       <form>
-        <label for="email" class="form-label">Email</label>
-        <input type="email" id="email" class="form-control" />
-        <label for="email" class="form-label">Email</label>
-        <input type="email" id="email" class="form-control" disabled/>
-        <label for="email" class="form-label">Email</label>
-        <input type="email" id="email" class="form-control" value="email@email.com" readonly/>
+        <div class="form-floating">
+          <input type="email" id="email" class="form-control" placeholder="Place email here">
+          <label for="email" class="form-label">Email</label>
+        </div>
         <button>Submit</button>
       </form>
-      <form>
-        <label for="email" class="form-label">Email</label>
-        <input type="range" id="email" class="form-range" />
-        <label for="email" class="form-label">Email</label>
-        <input type="color" id="email" class="form-control-color" />
-      </form>
-      <form>
-        <label for="email" class="form-label">Email</label>
-        <select>
-          <option>1</option>
-          <option>2</option>
-        </select>
-        <select class="form-select">
-          <option>1</option>
-          <option>2</option>
-        </select>
-      </form>
-      <form>
-        <div>
-        <label for="email" class="form-label">Email</label>
-        <input type="checkbox" />
-      </div>
-      <div>
-        <input type="checkbox" class="form-check-input"/>
-        <label for="email" class="form-check-label">Email</label>
-        </select>
-      </div>
-      </form>
-    </div>
   </body>
 </html>
